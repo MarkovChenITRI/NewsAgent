@@ -4,4 +4,4 @@ sudo docker compose up -d
 cd ../..
 
 cd ./firecrawl/apps/api
-pnpm run workers & pnpm run start & wait
+pnpm run workers & sleep 3 && pnpm run start & wait
