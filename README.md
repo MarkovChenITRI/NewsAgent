@@ -1,5 +1,5 @@
 # NewsAgent
-[InstallLM Studio](https://lmstudio.ai/)
+[Install LM Studio for Ryzen AI](https://lmstudio.ai/ryzenai)
 ```
 git clone --recursive https://github.com/MarkovChenITRI/NewsAgent.git
 cd NewsAgent/
