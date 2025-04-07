@@ -17,6 +17,9 @@ PLAYWRIGHT_MICROSERVICE_URL=http://playwright-service:3000/html
 ## To turn on DB authentication, you need to set up supabase.
 USE_DB_AUTHENTICATION=false
 ```
+```
+bash run.sh
+```
 
 Then Run [http://localhost/install](http://localhost/install)
 ```
