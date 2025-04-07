@@ -19,3 +19,10 @@ USE_DB_AUTHENTICATION=false
 ```
 
 Then Run [http://localhost/install](http://localhost/install)
+```
+curl -X POST http://localhost:3002/v1/crawl \
+    -H 'Content-Type: application/json' \
+    -d '{
+      "url": "https://firecrawl.dev"
+    }'
+```
