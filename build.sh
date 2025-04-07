@@ -1,6 +1,6 @@
 #cd firecrawl/apps/api
 #cp .env.example .env
-#docker compose build
+#sudo docker compose build
 #sudo docker compose up
 #-d
 #cd ../../..
