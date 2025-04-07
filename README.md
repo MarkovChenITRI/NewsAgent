@@ -7,5 +7,6 @@ bash build.sh
 
 Then Run [http://localhost/install](http://localhost/install)
 ```
-curl -X GET http://localhost:3002/test
+# Dify Docker Route
+curl -X GET http://172.17.0.1:3002/test     
 ```
