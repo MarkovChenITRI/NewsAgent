@@ -1,6 +1,7 @@
 # NewsAgent
 ```
-curl -fsSL https://ollama.com/install.sh | sh
+sudo docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama:rocm
+
 git clone --recursive https://github.com/MarkovChenITRI/NewsAgent.git
 cd NewsAgent/
 bash build.sh
