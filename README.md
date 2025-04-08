@@ -30,4 +30,7 @@ pip install playwright
 pip install scrapegraph-py
 pip install duckduckgo-search
 pip install ollama
+
+pip install scrapegraphai
+playwright install
 ```
