@@ -14,6 +14,8 @@ curl -X GET http://172.17.0.1:3002/test
 
 # ScrapeGraphAI
 將“IPU Control”下拉功能表更改為 Enable。
+INSTALL NPU DRIVER
+https://ryzenai.docs.amd.com/en/latest/inst.html
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 
