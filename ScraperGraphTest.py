@@ -7,7 +7,7 @@ graph_config = {
         "model_tokens": 8192
     },
     "verbose": True,
-    "headless": False,
+    "headless": True,
 }
 
 # Create the SmartScraperGraph instance
