@@ -16,7 +16,7 @@ curl -X GET http://172.17.0.1:3002/test
 
 ### AMD Radeon GPU/NPU Driver
 * [Install Visual Studio 2022]()
-* [Install Conda]()
+* Install Anaconda and run `conda init` in terminal
 * [Install AMD Drivers for Radeon 890M](https://www.amd.com/en/support/download/drivers.html)
 * [Install AMD Drivers for HX375 NPU](https://ryzenai.docs.amd.com/en/latest/inst.html)
 
