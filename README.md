@@ -19,4 +19,5 @@ sudo apt install libatk1.0-0 libatk-bridge2.0-0 libcups2 libxkbcommon0 libatspi2
 sudo apt-get install libxcomposite1 libxfixes3 libxrandr2 libasound2
 pip install playwright
 pip install scrapegraph-py
+pip install duckduckgo-search
 ```
