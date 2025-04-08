@@ -6,7 +6,7 @@ graph_config = {
         "model": "ollama/phi4:latest",
     },
     "verbose": True,
-    "headless": False,
+    "headless": True,
 }
 
 # Create the SmartScraperGraph instance
