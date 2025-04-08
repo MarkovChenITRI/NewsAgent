@@ -21,7 +21,7 @@ curl -X GET http://172.17.0.1:3002/test
 
 ```
 curl -fsSL https://ollama.com/install.sh | sh
-ollama pull deepseek-r1:1.5b
+ollama pull ollama3.2:1b
 pip install ollama
 
 pip install scrapegraphai
@@ -35,7 +35,7 @@ from scrapegraphai.graphs import SmartScraperGraph
 # Define the configuration for the scraping pipeline
 graph_config = {
     "llm": {
-        "model": "ollama/deepseek-r1:1.5b",
+        "model": "ollama/ollama3.2:1b",
         "model_tokens": 8192
     },
     "verbose": True,
