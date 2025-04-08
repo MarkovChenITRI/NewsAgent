@@ -3,8 +3,7 @@ from scrapegraphai.graphs import SmartScraperGraph
 # Define the configuration for the scraping pipeline
 graph_config = {
     "llm": {
-        "model": "ollama/llama3.2",
-        "model_tokens": 8192
+        "model": "ollama/phi4:latest",
     },
     "verbose": True,
     "headless": False,
