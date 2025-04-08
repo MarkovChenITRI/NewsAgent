@@ -14,10 +14,13 @@ curl -X GET http://172.17.0.1:3002/test
 
 # ScrapeGraphAI
 ```
+curl -fsSL https://ollama.com/install.sh | sh
+
 sudo apt update
 sudo apt install libatk1.0-0 libatk-bridge2.0-0 libcups2 libxkbcommon0 libatspi2.0-0 libxdamage1 libgbm1 libpango-1.0-0 libcairo2
 sudo apt-get install libxcomposite1 libxfixes3 libxrandr2 libasound2
 pip install playwright
 pip install scrapegraph-py
 pip install duckduckgo-search
+pip install ollama
 ```
